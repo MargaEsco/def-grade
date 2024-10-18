@@ -8,16 +8,16 @@ def calculate_average(grades_list):
 
 def classify_performance(average):
     if average >= 90:
-       print "Excellent"
+        return "Excellent"
     elif average >= 80:
-        print "Good"
+        return "Good"
     else:
-        print "Needs Improvement"
+        return "Needs Improvement"
 
 # Main function to input and display student grades
 
 def display_student_grades():
-
+    
     # Get the number of students and subjects
     num_students = int(input("Enter the number of students: "))
     num_subjects = int(input("Enter the number of subjects: "))
